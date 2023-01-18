@@ -1,0 +1,32 @@
+body,
+h1,
+section,
+button,
+main,
+header {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  margin-top: 100px;
+}
+
+.header,
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-transform: uppercase;
+}
+
+#turnOn,
+#turnOff {
+  margin: 10px;
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+}
